@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    width: 90vw;
+    flex-grow:20px;
+
+.elem {
+
+    border: 1px solid black;
+
+
+}
+/* 
+#id-1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 50vw;
+    height: 35vh;
+    align-items: center;
+
+}
+
+#id-2 {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 35vh;
+    
+
+}
+
+#id-3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 85vw;
+    height: 35vh;
+    align-items: center;
+
+} */
