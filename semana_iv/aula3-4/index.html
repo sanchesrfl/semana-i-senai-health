@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agendador de Postagens</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Agendador de Postagens</h1>
+        <div class="post-form">
+            <label for="date">Data e Hora:</label>
+            <input type="datetime-local" id="date" name="date" required>
+
+            <label for="caption">Legenda:</label>
+            <textarea id="caption" name="caption" rows="4" required></textarea>
+
+            <button onclick="agendarPost()">Agendar Postagem</button>
+        </div>
+
+        <div id="agendamentos">
+            <!-- Aqui será exibida a lista de agendamentos -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
