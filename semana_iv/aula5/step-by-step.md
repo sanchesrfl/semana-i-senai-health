@@ -148,3 +148,10 @@ Crie uma variável game que irá chamar a função setInterval. a função start
 10. Testando!
 
 Verifique se seu html está com o script correspondente. Ative sua index.html seja com plugin de servidor no vscode ou simplesmente abrindo-o no navegador.
+
+
+
+_________________
+
+projeto inspirado na implementação 
+https://github.com/Pleiterson/snake-game-javascript/tree/master
